@@ -24,7 +24,7 @@ body {
   margin-top: 5px
 }
 
-/* ページヘッダー */
+/* ページフッター */
 #pageFoot {
   border-top: solid 1px #CCCCCC;
   margin-top: 15px;
@@ -34,6 +34,27 @@ body {
 #copyright small {
   font-size: 12px;
   line-height: 1.5;
+}
+
+/* ページボディ */
+#pageBody {
+  margin-top: 30px;
+}
+
+#pageBody:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+#pageBodyMain {
+  width: 720px;
+  float: left;
+}
+
+#pageBodySub {
+  width: 220px;
+  float: right;
 }
 
 p {
@@ -78,11 +99,12 @@ figcaption {
 }
 
 /*見出し*/
-.pageTitle {
+#pageBodyMain .pageTitle {
   font-size: 26px;
   line-height: 1.231;
   background-color: #F2F2E5;
   padding: 5px 15px;
+  margin-top: 0;
 }
 
 .heading-typeA {
