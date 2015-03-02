@@ -269,6 +269,24 @@ a:hover { color: #996600; }
   border: solid 1px #CCCCCC;
 }
 
+#pageBodyMain .creditUnit:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+
+#pageBodyMain .creditUnit .creditUnitText {
+  float: right;
+  width: 378px;
+}
+
+#pageBodyMain .creditUnit .creditUnitMap {
+  float: left;
+  width: 200px;
+}
+
+
 #pageBodyMain .creditUnit p {
   font-size: 12px;
   line-height: 1.5;
@@ -396,6 +414,16 @@ a:hover { color: #996600; }
   font-size: 12px;
   line-height: 1.5;
   margin-bottom: 0;
+}
+
+#pageBody .mainVisual ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#pageBody .mainVisual ul li {
+  position: relative;
 }
 
 
