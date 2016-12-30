@@ -4,6 +4,12 @@ body {
   color: #333333;
 }
 
+/* ページ */
+#page {
+  width: 980px;
+  margin: 0 auto;
+}
+
 /* ページヘッダー */
 #siteTitle {
   font-size: 30px;
@@ -19,9 +25,35 @@ body {
 }
 
 /* ページフッター */
+#pageFoot {
+  border-top: solid 1px #CCCCCC;
+  margin-top: 15px;
+}
+
 #copyright small {
   font-size: 12px;
   line-height: 1.5;
+}
+
+/* ページボディ */
+#pageBody {
+  margin-top: 30px;
+}
+
+#pageBody:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+#pageBodyMain {
+  width: 720px;
+  float: left;
+}
+
+#pageBodySub {
+  width: 220px;
+  float: right;
 }
 
 p {
@@ -74,6 +106,7 @@ figcaption {
   background-color: #F2F2E5;
   padding: 5px 15px;
   line-height: 1.231;
+  margin-top: 0;
 }
 .heading-typeA {
   font-size: 18px;
